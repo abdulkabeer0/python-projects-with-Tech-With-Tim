@@ -35,3 +35,10 @@ else:
     print("Incorrect! Definitely you are a Juice")
 
 
+answer = input("\nName a body Organ that starts with letter D? ")
+if answer in ("duodenum", "dermis", "diaphragm", "diencephalon", "descending colon", "dura mater", "decidua", "duas layer"):
+    print("Correct! Definitely i know what comes in your mind first")
+elif answer == "dick":
+    print("Correct! but You need to hesitate dude")
+else:
+    print("Incorrect! from now onwards read biology daily (read Reproduction chapter with focus) ")
