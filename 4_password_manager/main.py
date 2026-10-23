@@ -1,7 +1,9 @@
 master_pwd = input("Enter your Master Password: ")
 
 def view():
-    pass
+    with open("password.txt","r") as f:
+        for line in f.readlines():
+            print(line.rstrip()) # rstrip ends or cuts the extra line when viewing or reading the file.
 
 def add():
     name = input("Enter your Account Name: ")
