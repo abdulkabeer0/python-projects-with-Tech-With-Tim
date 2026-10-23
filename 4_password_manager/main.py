@@ -6,7 +6,7 @@ from cryptography.fernet import Fernet
 #         key_file.write(key)
 
 def load_key():
-    file = open("key.key","wb")
+    file = open("key.key","rb")
     key = file.read()
     file.close()
     return key
