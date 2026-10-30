@@ -20,4 +20,10 @@ while True:
 
 max_score  = 50
 players_scores = [0 for _ in range(players)]
-print(players_scores)
+
+while max(players_scores) < max_score:
+
+    should_roll = input("Would you like to Roll (y)? ")
+    if should_roll.lower() != "y":
+        break
+    
