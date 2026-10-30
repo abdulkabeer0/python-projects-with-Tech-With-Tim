@@ -17,3 +17,7 @@ while True:
             print("Minimum 2 and Maximum 4 Players can Play!\n")
     else:
         print("Enter a Valid Number!\n")
+
+max_score  = 50
+players_scores = [0 for _ in range(players)]
+print(players_scores)
